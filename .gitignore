@@ -1,3 +1,25 @@
 # dotenv environment variable files
 .env
 .envrc
+
+# Binaries and build artifacts
+bin/
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# Ignore build directories
+build/
+dist/
+
+# Go build cache
+*.mod
+*.sum
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
